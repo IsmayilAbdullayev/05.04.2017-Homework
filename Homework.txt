@@ -1,0 +1,33 @@
+                                       Assembler-Proqramlasdirma dili
+
+1952 ci ilde Amerikali Qreys Hopper proqramlasdirma dili olan Assembler dilini yaratdi.
+"Assemble" ingilis  sozunden goturulmusdur "Yigmaq","Qurasdirmaq" menasi verir.
+Assembler dilinin imkanlari sonsuzdur .( diger dillerin ise sonludur ) 
+Assembler dili kohnedir deye bu o demek deyilki istifade olunmur.
+Assembler dilinin diger dillerden ustunluyu ondan ibaretdir ki biz Assemblerde 
+yazilmis proqramla Prosessorun xarici v? daxili siqnallara cavab reaksiyasin (kesilmeleri) 
+idare etmek mumkundur.Ancaq assembler dilinde yazilmis proqram ile yaddasa müracit etmek mumkundur.
+Assembler hal-hazirda ancaq sistem proqramlasdirmada istifade olunur.
+Assembler dilinin menfi ceheti ondan ibaretdir ki normal basqa dillerde yazdigimiz kodlar
+Assembler dilinde daha cox setir tutur ve bir o qeder cox zaman alir.
+
+
+
+
+
+                                       
+                                         C- Proqramlasdirma dili
+
+C-dili 1972 ci ilde Dennis Ritchie terefinden Bell Telefon Laboratuarinda UNix sistemi ile isslemek 
+ucun yaradilmasir.Hazirda C proqramlasdirma dili diger emeliyyat sistemlerinde de genis istifade olunur.
+C proqramlasdirma dili bir cox diger proqramlasdirma dillerin yaranmasina ve inkisafina tekan vermisdir.
+Windows ,Linux,Unix kimi emeliyyat sistemleri C-de yazilib.Muasir dovrde bu dil sistem proqramlasdirmasi
+ucun en guclu proqramlasdirma dillerinden biridir.
+
+
+
+
+                                        Asp.net- dili
+
+Asp.net sayesinde web proqramcilar asanliqla dinamik veb sayitlari veb uygulamalariv ve ya XML 
+veb servislerini inkisaf etdire bilirler.Qisaldilmasi Asp kimi olan bunun acilisi "Active Server pages" kimidr.
