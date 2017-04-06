@@ -1,33 +1,68 @@
-                                       Assembler-Proqramlasdirma dili
-
-1952 ci ilde Amerikali Qreys Hopper proqramlasdirma dili olan Assembler dilini yaratdi.
-"Assemble" ingilis  sozunden goturulmusdur "Yigmaq","Qurasdirmaq" menasi verir.
-Assembler dilinin imkanlari sonsuzdur .( diger dillerin ise sonludur ) 
-Assembler dili kohnedir deye bu o demek deyilki istifade olunmur.
-Assembler dilinin diger dillerden ustunluyu ondan ibaretdir ki biz Assemblerde 
-yazilmis proqramla Prosessorun xarici v? daxili siqnallara cavab reaksiyasin (kesilmeleri) 
-idare etmek mumkundur.Ancaq assembler dilinde yazilmis proqram ile yaddasa müracit etmek mumkundur.
-Assembler hal-hazirda ancaq sistem proqramlasdirmada istifade olunur.
-Assembler dilinin menfi ceheti ondan ibaretdir ki normal basqa dillerde yazdigimiz kodlar
-Assembler dilinde daha cox setir tutur ve bir o qeder cox zaman alir.
+1.Deyisen (Variable) nedir?
 
 
 
 
 
-                                       
-                                         C- Proqramlasdirma dili
-
-C-dili 1972 ci ilde Dennis Ritchie terefinden Bell Telefon Laboratuarinda UNix sistemi ile isslemek 
-ucun yaradilmasir.Hazirda C proqramlasdirma dili diger emeliyyat sistemlerinde de genis istifade olunur.
-C proqramlasdirma dili bir cox diger proqramlasdirma dillerin yaranmasina ve inkisafina tekan vermisdir.
-Windows ,Linux,Unix kimi emeliyyat sistemleri C-de yazilib.Muasir dovrde bu dil sistem proqramlasdirmasi
-ucun en guclu proqramlasdirma dillerinden biridir.
 
 
+2.en çox istifade? olunan melumat növlerini ?
+
+inter ( int ).
+
+Integer tipi tam ededler ucun nezerde tutulmusdur.Istifade etdiyimiz zaman qisa olaraq int olaraq 
+yaziriq.Integer tipi 32 bitlik hecim tutur.
+
+Float-Kesr ededler ucun nezerde tutulmusdur.Hesablama zamani kesr ededler varsa bu zaman biz 
+float tipinden istifade etmeliyik ki bize neticeni duzgun olaraq versin.
+
+char ve string her ikside metin sozlerin yazilmasi ve islenmesi ucun nezerde tutulmusdur.
+
+Boolean adeten iki qiymeti olur :
+
+1 ture  ( dogru )
+
+2 False ( Sehv )
+
+YAzmis oldugumuz hesablama islemi dogru oldugu halda ( true ) yalnis oldugu teqdirde ( false ) verecekdir.
+
+3.Riyazi operatorlar hansilardir?Ferqli Proqramlasdirma dillerinde bu operatorlar arasinda hansi ferqli
+xususiyyetler var ?
+
+1. Vurma      A*B
+2. Bolme      A/B
+3. Toplama    A+B
+4. Cixma      A-B
+5. Faiz       A%B   % yazaraq qaliqin nece oldugunu tapa bilerik .
+
+4.Mentiq operatorlari hansilardir? Numunelerle izah edin .
+
+&& -mentiqi operatoru ilk verilen ile son verilen bir birine beraber olsa bize "True" cavabin verecekdir.
+Meselen (Code&&Code) yazsaq "True" verecekdir lakin biz (Code&&Academy) yazsaq bu zaman "false" cavabin verecekdir.
+Ve qeyd edek ki && -operatorunda butun ifadeler "true" olmalidi ki bize "True" cavabin versin eks teqdirde 3u "True"
+1i "False" olsa bu zaman "False" cavabin verecekdir.
 
 
-                                        Asp.net- dili
+|| -operatorunda ise verilenlerden yalniz biri "True" olmus olsa bu zaman bize aftomatik olaraq "True" cavabin vercdekdir.
 
-Asp.net sayesinde web proqramcilar asanliqla dinamik veb sayitlari veb uygulamalariv ve ya XML 
-veb servislerini inkisaf etdire bilirler.Qisaldilmasi Asp kimi olan bunun acilisi "Active Server pages" kimidr.
+!  - operatoru ise inkarliq bildirir meselen:
+ (Code&&Code) "True" oldugu halda bunun qarsisina inkarliq operatorun artirsaq !(Code&&Code) "False" cavabin verecekdir.
+
+
+  Sert operatorlari :
+
+
+== Bu operator A ve B nin beraber oldugunu gosterir meselen.(A==A) ifadesi bize "True"verecekdir.
+ve ya (A==D) yazsaq bu zaman "Fasle" verecekdir.
+
+
+!=  Operatoru ise beraber olmadigini gosterir meselen: (COde&&Acadamy) yazsaq bize "True" cavabin vermis olacaq.
+
+>   boyukdur operatoru A=10,B=9 (A>B) yazsaq "true" verecekdir.A=10,B=15 olsa A>B) yazsaq "false" almis olariq.
+
+<   kicikdir operatoru A=10,B=11 (A<B) yazsaq "true" verecekdir.A=10,B=10 versek (A<B) yazsaq "False" cavabin almis olariq.
+
+>=  boyuk beraberdi operatoru A=10,B=10 (10>=10) versek "true" cavabin almis olariq .
+
+<=  kicik beraberdi operatoru A=9,B=15 (A<=B) versek "True" cavabin almis olariq.
+
